@@ -17,7 +17,7 @@ def print_aanbieding ():
     reclame_tekst4 = reclame_tekst3.split()
     
     for el in reclame_tekst4 :
-        if len(el) > 4:
+        if len(el) >= 5:
             print(el.upper())
         else:
             print (el.lower())
